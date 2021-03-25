@@ -1,0 +1,40 @@
+{
+	"name": "dooluu-cli",
+	"version": "0.0.1",
+	"description": "Start building a dooluu Web App in seconds.",
+	"main": "lib/index.js",
+	"bin": {
+		"dooluu": "lib/index.js"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"keywords": [
+		"preact",
+		"cli",
+		"dooluu",
+		"project",
+		"generator"
+	],
+	"author": "hellolaoyang<aaron@codonas.cn>",
+	"license": "MIT",
+	"peerDependencies": {
+		"preact": "*"
+	},
+	"dependencies": {
+		"colors": "^1.4.0",
+		"cross-spawn-promise": "^0.10.2",
+		"envinfo": "^7.3.1",
+		"esm": "^3.2.25",
+		"gittar": "^0.1.1",
+		"glob": "^7.1.4",
+		"ip": "^1.1.5",
+		"ora": "^4.0.3",
+		"preact-cli": "^3.0.5",
+		"prompts": "^2.4.0",
+		"rimraf": "^3.0.2",
+		"sade": "^1.4.1",
+		"shelljs": "^0.8.4",
+		"which": "^2.0.2"
+	}
+}
